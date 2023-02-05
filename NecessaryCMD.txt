@@ -1,0 +1,71 @@
+necessary cmd
+to create file  --echo "file info"> file_name
+to open file -- start file
+to push in main branch -- git push
+git add all and commit all at once -- git commit -am "Message"
+you can also edit code on github and commit there 
+to get updated with that commit you need to pull from github using -- git pull 
+
+merge conflict
+commit a change in github
+and commit a change on the same line in your local repository
+then pull the code from github which creates a merge conflict
+to resolve the conflict fix the change of the file then commit and push 
+
+
+use git log for history
+
+git reset to go back to another commit
+
+
+hard reset -- git reset --hard <commit hash>
+
+git revert back to previous commit
+git checkout hash .
+
+to get username
+git config user.name
+
+to get useremail
+git config user.email	
+ 
+ 
+to add git to current directory
+git remote add origin link_to_repository
+
+to check that connection
+git remote -v
+
+to change local user.name
+git config --local user.name User_name
+
+to change local user.email
+git config --local user.email User_email
+
+
+
+
+
+
+add a branch
+
+git checkout -b branch_name
+
+to check branch	
+
+git branch 
+
+to switch a branch
+git checkout branch_name
+
+to merge a branch
+git merge branch_name(this merges branch_name to current branch)
+
+to delete a branch
+git branch --delete branch_name
+
+to create folder
+mkdir folder_name
+
+to get the difference of committed file and untracked file
+git diff
